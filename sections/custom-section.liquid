@@ -2,6 +2,10 @@
   {% content_for "blocks" %}
 </div>
 
+{% if section.blocks.size > 3 %}
+  {% content_for "block", type: "group", id: "conditional-group" %}
+{% endif %}
+
 {% schema %}
 {
   "name": "Custom section",
@@ -40,17 +44,120 @@
       "id": "color_scheme",
       "label": "Color scheme",
       "default": "scheme-1"
-    },
-    {
-      "type": "checkbox",
-      "id": "full_width",
-      "label": "Make section full width",
-      "default": false
     }
   ],
   "presets": [
     {
       "name": "Custom section"
+    },
+    {
+      "name": "Image with text (custom section)",
+      "blocks": [
+        {
+          "type": "group",
+          "settings": {
+            "layout": {
+              "flex-direction": "column"
+            },
+            "size": {
+              "width": "50%"
+            }
+          },
+          "blocks": [{ "type": "image" }]
+        },
+        {
+          "type": "group",
+          "settings": {
+            "layout": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "size": {
+              "width": "50%"
+            }
+          },
+          "blocks": [{ "type": "heading" }, { "type": "link" }]
+        }
+      ]
+    },
+    {
+      "name": "Multicolumn (custom section)",
+      "blocks": [
+        {
+          "type": "group",
+          "settings": {
+            "layout": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "gap": "10px"
+            },
+            "size": {
+              "@media (--mobile)": {
+                "width": "45%",
+                "flex-grow": 1
+              }
+            }
+          },
+          "blocks": [{ "type": "image" }, { "type": "heading" }, { "type": "text" }, { "type": "link" }]
+        },
+        {
+          "type": "group",
+          "settings": {
+            "layout": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "gap": "10px"
+            },
+            "size": {
+              "@media (--mobile)": {
+                "width": "45%",
+                "flex-grow": 1
+              }
+            }
+          },
+          "blocks": [{ "type": "image" }, { "type": "heading" }, { "type": "text" }, { "type": "link" }]
+        },
+        {
+          "type": "group",
+          "settings": {
+            "layout": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "gap": "10px"
+            },
+            "size": {
+              "@media (--mobile)": {
+                "width": "45%",
+                "flex-grow": 1
+              }
+            }
+          },
+          "blocks": [{ "type": "image" }, { "type": "heading" }, { "type": "text" }, { "type": "link" }]
+        },
+        {
+          "type": "group",
+          "settings": {
+            "layout": {
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "size": {
+              "width": "100%"
+            }
+          },
+          "blocks": [
+            {
+              "type": "link",
+              "settings": {
+                "label": "Conditional button"
+              }
+            }
+          ],
+          "static": true,
+          "id": "conditional-group"
+        }
+      ]
     }
   ]
 }
