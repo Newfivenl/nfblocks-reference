@@ -1,1 +1,223 @@
-{"sections":{},"order":[]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "custom_section_L7YV4P": {
+      "type": "custom-section",
+      "blocks": {
+        "group_kizMmn": {
+          "type": "group",
+          "settings": {
+            "layout": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "row-gap": "10px",
+              "column-gap": "10px"
+            },
+            "size": {
+              "@media (--mobile)": {
+                "width": "45%",
+                "flex-grow": "1"
+              }
+            },
+            "spacing": {
+            }
+          },
+          "blocks": {
+            "image_p4CyAk": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "heading_zt7iW8": {
+              "type": "heading",
+              "settings": {
+                "heading": "Heading"
+              }
+            },
+            "text_rjrxYK": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+                "text_style": "",
+                "alignment": "start"
+              }
+            },
+            "link_HynLhL": {
+              "type": "link",
+              "settings": {
+                "link": "",
+                "label": "Button label"
+              }
+            }
+          },
+          "block_order": [
+            "image_p4CyAk",
+            "heading_zt7iW8",
+            "text_rjrxYK",
+            "link_HynLhL"
+          ]
+        },
+        "group_xgk66f": {
+          "type": "group",
+          "settings": {
+            "layout": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "row-gap": "10px",
+              "column-gap": "10px"
+            },
+            "size": {
+              "@media (--mobile)": {
+                "width": "45%",
+                "flex-grow": "1"
+              }
+            },
+            "spacing": {
+            }
+          },
+          "blocks": {
+            "image_FnVjpg": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "heading_aCCE9M": {
+              "type": "heading",
+              "settings": {
+                "heading": "Heading"
+              }
+            },
+            "text_MRiyxU": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+                "text_style": "",
+                "alignment": "start"
+              }
+            },
+            "link_YVdqPT": {
+              "type": "link",
+              "settings": {
+                "link": "",
+                "label": "Button label"
+              }
+            }
+          },
+          "block_order": [
+            "image_FnVjpg",
+            "heading_aCCE9M",
+            "text_MRiyxU",
+            "link_YVdqPT"
+          ]
+        },
+        "group_QnAq4m": {
+          "type": "group",
+          "settings": {
+            "layout": {
+              "flex-direction": "column",
+              "align-items": "center",
+              "row-gap": "10px",
+              "column-gap": "10px"
+            },
+            "size": {
+              "@media (--mobile)": {
+                "width": "45%",
+                "flex-grow": "1"
+              }
+            },
+            "spacing": {
+            }
+          },
+          "blocks": {
+            "image_QpaGAn": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "heading_UxzfWY": {
+              "type": "heading",
+              "settings": {
+                "heading": "Heading"
+              }
+            },
+            "text_ppc9rH": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+                "text_style": "",
+                "alignment": "start"
+              }
+            },
+            "link_DQg39e": {
+              "type": "link",
+              "settings": {
+                "link": "",
+                "label": "Button label"
+              }
+            }
+          },
+          "block_order": [
+            "image_QpaGAn",
+            "heading_UxzfWY",
+            "text_ppc9rH",
+            "link_DQg39e"
+          ]
+        },
+        "conditional-group": {
+          "type": "group",
+          "static": true,
+          "settings": {
+            "layout": {
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "size": {
+              "width": "100%"
+            },
+            "spacing": {
+            }
+          },
+          "blocks": {
+            "link_ya8P7z": {
+              "type": "link",
+              "settings": {
+                "link": "",
+                "label": "Conditional button"
+              }
+            }
+          },
+          "block_order": [
+            "link_ya8P7z"
+          ]
+        }
+      },
+      "block_order": [
+        "group_kizMmn",
+        "group_xgk66f",
+        "group_QnAq4m"
+      ],
+      "settings": {
+        "layout": {
+          "flex-direction": "row",
+          "flex-wrap": "nowrap",
+          "row-gap": "10px",
+          "column-gap": "10px"
+        },
+        "spacing": {
+        },
+        "color_scheme": ""
+      }
+    }
+  },
+  "order": [
+    "custom_section_L7YV4P"
+  ]
+}
